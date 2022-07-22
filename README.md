@@ -1,36 +1,18 @@
-# ProxmoxVE API
-This **PHP 8+** Proxmox library allow, to interact with your Proxmox PVE server and cluster via API.
+# Proxmox API
+This **PHP 8+** Proxmox library allows you to interact with your Proxmox PVE server and cluster in an object-oriented way.
 
-[![Latest Stable Version](https://poser.pugx.org/mrkampf/proxmox-ve/v/stable)](https://packagist.org/packages/mrkampf/proxmox-ve)
-[![Total Downloads](https://poser.pugx.org/mrkampf/proxmox-ve/downloads)](https://packagist.org/packages/mrkampf/proxmox-ve)
-[![Latest Unstable Version](https://poser.pugx.org/mrkampf/proxmox-ve/v/unstable)](https://packagist.org/packages/mrkampf/proxmox-ve)
-[![License](https://poser.pugx.org/mrkampf/proxmox-ve/license)](https://packagist.org/packages/mrkampf/proxmox-ve)
+This library is a fork of another library, and this library is actively maintained as it's being used in a real project.
 
-> You find any errors, typos or you detect that something is not working as expected please open an [issue](https://github.com/MrKampf/proxmoxVE/issues/new). I'll try to release a fix asap.
+[![Latest Stable Version](http://poser.pugx.org/performave/proxmox/v)](https://packagist.org/packages/performave/proxmox) [![Total Downloads](http://poser.pugx.org/performave/proxmox/downloads)](https://packagist.org/packages/performave/proxmox) [![Latest Unstable Version](http://poser.pugx.org/performave/proxmox/v/unstable)](https://packagist.org/packages/performave/proxmox) [![License](http://poser.pugx.org/performave/proxmox/license)](https://packagist.org/packages/performave/proxmox) [![PHP Version Require](http://poser.pugx.org/performave/proxmox/require/php)](https://packagist.org/packages/performave/proxmox)
+
+> If you find any errors, typos, or errors [issue](https://github.com/performave/proxmox/issues/new). I'll try to release a hotfix
 
 ## Getting Started
 
-Recommended installation is using **Composer**, if you do not have **Composer** what are you waiting?
-
-In the root of your project execute the following:
+Install using Composer via the command-line
 
 ```sh
-$ composer require mrkampf/proxmox-ve
-```
-
-Or add this to your `composer.json` file:
-
-```json
-{
-    "require": {
-        "mrkampf/proxmox-ve": "^0.4.0"
-    }
-}
-```
-
-Then perform the installation:
-```sh
-$ composer install --no-dev
+$ composer require performave/proxmox
 ```
 
 ## Example
