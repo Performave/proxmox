@@ -281,8 +281,8 @@ class VmId extends PVEPathClassBase
      * @link https://pve.proxmox.com/pve-docs/api-viewer/#/nodes/{node}/qemu/{vmid}
      * @return array|null
      */
-    public function delete(): ?array
+    public function delete(array $params = []): ?array
     {
-        return $this->getPve()->getApi()->delete($this->getPathAdditional());
+        return $this->getPve()->getApi()->delete($this->getPathAdditional(), $params);
     }
 }
