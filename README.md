@@ -1,3 +1,7 @@
+# Deprecated
+
+This library has been deprecated in favor of custom written logic to call Proxmox API. This is because the library was poorly designed and became hard to maintain.
+
 # Proxmox API
 This **PHP 8+** Proxmox library allows you to interact with your Proxmox PVE server and cluster in an object-oriented way.
 
